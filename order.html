@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--
+    Author: Nicholas Clifford
+    Date: 7/7/2024
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="logo">
+        <h1>Cheechs Pizza Parlor</h1>
+    </div>
+    <nav>
+        <ul class="nav_links">
+            <li><a href="">Home</a></li>
+            <li><a href="order.html">Order Online</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="">Our Location</a></li>
+        </ul>
+    </nav>
+    <div class="forms">
+        <div class="container">
+            <form>
+                <fieldset>
+                    <legend>
+                        Order Info
+                    </legend>
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="fname" autofocus required placeholder="First Name"><br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="lname" required placeholder="Last Name"><br>
+                    <label for="pnumber">Phone:</label>
+                    <input type="tel" name="pnumber" required placeholder="4175555555"><br>
+                    <label for="pizzas">Choose a Pizza:</label>
+                    <select name="pizzas" id="pizzas">
+                        <option value="Cheese">Cheese</option>
+                        <option value="Peperoni">Pepperoni</option>
+                        <option value="Hamburger">Hamburger</option>
+                        <option value="Sausage">Sausage</option>
+                        <option value="Veggie">Veggie</option>
+                        <option value="Supreme">Supreme</option>
+                    </select>
+                    <label for="quantity">Quantity</label>
+                    <input type="number" name="quantity" min="1" max="10">
+                    <input class="submit" type="submit" value="submit">
+                </fieldset>
+            </form>
+        </div>
+        <div class="container2">
+            <form>
+                <fieldset>
+                    <legend>
+                        Rewards
+                    </legend>
+                    <p>Sign up for our rewards today!</p>
+                    <label for="ename">First Name</label>
+                    <input type="text" name="ename" placeholder="First Name">
+                    <label for="elname">Last Name</label>
+                    <input type="text" name="elname" placeholder="Last Name">
+                    <label for="mail">Email</label>
+                    <input type="email" name="mail" placeholder="example@example.com">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
